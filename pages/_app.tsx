@@ -8,7 +8,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <>
       <GlobalStyle />
       <Variables />
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
     </>
   );
 }

@@ -35,7 +35,7 @@ body {
 
   overflow-x: hidden;
 
-  background-color: var(--very-dark-blue);
+  background-color: var(--white);
 }
 
 div#__next {
