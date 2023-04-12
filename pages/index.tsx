@@ -116,6 +116,7 @@ const Title = styled.h1`
   :hover {
     color: var(--cyan);
     transition: 200ms;
+    cursor: pointer;
   }
 
   @media (max-width: 375px) {
@@ -176,6 +177,7 @@ const Author = styled.div`
     :hover {
       color: var(--cyan);
       transition: 200ms;
+      cursor: pointer;
     }
   }
 `;
