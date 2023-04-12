@@ -76,28 +76,31 @@ const ImageContainer = styled.div`
     grid-row: 1 / 2;
     grid-column: 1 / 2;
 
+    transition: 200ms;
+
     @media (max-width: 375px) {
       width: 278px;
       height: 278px;
     }
   }
 
+  :hover img {
+    opacity: 0.5;
+    color: cyan;
+  }
+
   svg {
-    display: block;
     grid-row: 1 / 2;
     grid-column: 1 / 2;
-    opacity: 1;
 
-    visibility: hidden;
+    opacity: 0;
+    position: relative;
+
+    transition: 200ms;
   }
 
   :hover svg {
-    visibility: visible;
-  }
-
-  img:hover {
-    opacity: 0.5;
-    color: cyan;
+    opacity: 1;
   }
 `;
 
